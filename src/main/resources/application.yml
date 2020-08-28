@@ -1,0 +1,17 @@
+jwt:
+  secret: hoseobus
+spring:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username: root
+    password: test1234!
+#postgres DB Config
+bar:
+  datasource:
+    driver: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: test1234!
+
+#MySQL DB Config org.hibernate.dialect.MySQL5InnoDBDialect
